@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #fdf6f0;
+}
+
+.question-card {
+  width: 500px;
+  margin: 20px auto;
+  padding: 30px;
+  background: #fff8fc;
+  border: 2px solid #f0b5d9;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.question-card p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.question-card button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #f275b6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
