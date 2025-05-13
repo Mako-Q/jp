@@ -2,14 +2,18 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8" />
-  <title>ログイン - 質問箱</title>
-  <script type="module" src="js/auth.js"></script>
+  <title>トップページ</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/login.js"></script>
 </head>
 <body>
-  <h2>ログイン</h2>
-  <input type="text" id="loginId" placeholder="ユーザーID">
-  <input type="password" id="loginPassword" placeholder="パスワード">
-  <button id="loginButton">ログイン</button>
-  <p>新規登録は <a href="register.html">こちら</a></p>
+  <div class="container">
+    <h1>ようこそ！</h1>
+    <p>ログインまたはアカウント作成をしてください</p>
+    <div class="btn-container">
+      <a href="login.html" class="btn">ログイン</a>
+      <a href="signup.html" class="btn">アカウント作成</a>
+    </div>
+  </div>
 </body>
 </html>
