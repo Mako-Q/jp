@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>管理者ページ</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/admin.js"></script>
+</head>
+<body>
+  <h2>管理者ページ</h2>
+  <div id="adminControls">
+    <h3>ユーザー管理</h3>
+    <label for="banUserId">BANするユーザーのID</label>
+    <input type="text" id="banUserId" placeholder="ユーザーIDを入力">
+    <button id="banUserBtn">BAN</button>
+    <p id="banStatusMessage"></p>
+    <br>
+
+    <h3>質問一覧</h3>
+    <div id="questionList"></div>
+
+    <h3>質問送信</h3>
+    <label for="sendToUserId">質問送信先ユーザーID</label>
+    <input type="text" id="sendToUserId" placeholder="送信先のユーザーID">
+    <textarea id="adminQuestionText" placeholder="質問を入力" rows="4" cols="40"></textarea><br>
+    <button id="sendAdminQuestionBtn">送信</button>
+    <p id="sendAdminQuestionStatus"></p>
+  </div>
+</body>
+</html>
